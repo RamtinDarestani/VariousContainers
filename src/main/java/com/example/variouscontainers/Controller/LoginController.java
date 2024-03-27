@@ -8,6 +8,10 @@ public class LoginController {
     public String sign() {
         return "sign";
     }
+    @GetMapping("/")
+    public String home() {
+        return "sign";
+    }
 
 }
 
